@@ -222,13 +222,7 @@
 |---|---|---|
 | [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | Hands-on course covering ML, deep learning, LLMs, agents, and more. | A structured, build-it-yourself path to understanding AI engineering end to end, from fundamentals to shipping. |
 | [hacker-laws](https://github.com/dwmkerr/hacker-laws) | Laws, theories, principles, and patterns for developers. | Shared vocabulary for engineering trade-offs (Conway, Hyrum, Brooks, and more). |
-| [sre-interview-prep-guide](https://github.com/mxssl/sre-interview-prep-guide) | Site reliability engineer interview preparation guide. | A curated study path for SRE and DevOps interviews. |
-| [CKAD-exercises](https://github.com/dgkanatsios/CKAD-exercises) | Exercises for the Certified Kubernetes Application Developer exam. | Hands-on practice for CKAD. |
-| [CertificationMaterials](https://github.com/johnthebrit/CertificationMaterials) | Materials from John Savill's certification videos. | Free study notes for Azure certifications. |
 | [kubernetes-failure-stories](https://github.com/hjacobs/kubernetes-failure-stories) | Public Kubernetes failure and horror stories. | Learn from others' incidents before you repeat them. |
-| [terraform-up-and-running-code](https://github.com/brikis98/terraform-up-and-running-code) | Code samples for *Terraform: Up & Running*. | Working examples to follow along with the book. |
-| [ops-books](https://github.com/stack72/ops-books) | Book recommendations for infrastructure engineers. | A reading list for ops and SRE. |
-| [100_Days_100_IoT_Projects](https://github.com/kritishmohapatra/100_Days_100_IoT_Projects) | 100 IoT projects with ESP32, ESP8266, and Raspberry Pi. | Bite-sized embedded projects to learn by building. |
 | [The-HustleGPT-Challenge](https://github.com/jtmuller5/The-HustleGPT-Challenge) | Building startups with an AI co-founder. | Real examples of founders using AI to build businesses. |
 
 ## Other Awesome Lists

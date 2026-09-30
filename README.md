@@ -202,12 +202,6 @@
 | Repo | Description | How this helps |
 |---|---|---|
 | [restic](https://github.com/restic/restic) | Fast, secure, efficient backup program. | Encrypted, deduplicated backups to almost any storage backend. |
-| [docker-pi-hole](https://github.com/pi-hole/docker-pi-hole) | Official Pi-hole Docker image. | Network-wide ad and tracker blocking in one container. |
-| [docker-openvpn](https://github.com/kylemanna/docker-openvpn) | OpenVPN server in Docker with an EasyRSA PKI CA. | Your own VPN up in minutes. |
-| [cloudflare-ddns](https://github.com/timothymiller/cloudflare-ddns) | Rust-based dynamic DNS updater for Cloudflare. | Keeps your home IP reachable through a Cloudflare domain. |
-| [dyn-dns](https://github.com/ngalaiko/dyn-dns) | Dynamic DNS updater. | A minimal DDNS alternative. |
-| [docker-plex](https://github.com/jaymoulin/docker-plex) | Multi-arch Plex Media Server image, including Raspberry Pi. | Plex on ARM boards without hassle. |
-| [Varken](https://github.com/Boerderij/Varken) | Aggregates Plex ecosystem data into InfluxDB for Grafana. | Dashboards for your media server usage. |
 | [postiz-app](https://github.com/gitroomhq/postiz-app) | Agentic social media scheduling tool. | A self-hosted alternative to Buffer and Hootsuite, with AI help. |
 
 ## Developer Tools

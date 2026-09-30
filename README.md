@@ -8,6 +8,7 @@
 - [Agent Skills](#agent-skills)
 - [AI Models & LLM Tooling](#ai-models--llm-tooling)
 - [Music & Audio AI](#music--audio-ai)
+- [Research Papers](#research-papers)
 - [Security](#security)
 - [Compliance & GRC](#compliance--grc)
 - [AI Pentesting](#ai-pentesting)
@@ -75,6 +76,20 @@
 | [all-in-one](https://github.com/mir-aidj/all-in-one) | All-in-one music structure analyzer. | Detects tempo, beats, downbeats, and sections (verse, chorus) automatically. |
 | [LiveChord](https://github.com/JJ110112/LiveChord) | Turns an audio file into a real-time, playable chord chart. | Practice songs with synced chords, transpose, A-B loop, and slow-down. |
 | [lyrics.ovh](https://github.com/NTag/lyrics.ovh) | Source and API for searching song lyrics. | A simple lyrics API for music apps. |
+
+## Research Papers
+
+Papers behind [StemDeck](https://github.com/stemdeckapp/stemdeck) (stem separation and song analysis).
+
+| Paper | Description | How this helps |
+|---|---|---|
+| [Music Source Separation in the Waveform Domain](https://arxiv.org/abs/1911.13254) (Défossez et al., 2019) | The original Demucs: a waveform-to-waveform model for separating music into stems. | The foundation of Demucs, which StemDeck uses for separation. |
+| [Hybrid Spectrogram and Waveform Source Separation](https://arxiv.org/abs/2111.03600) (Défossez, 2021) | Hybrid Demucs: processes the spectrogram and the raw waveform together. | Explains why Demucs separates better than pure-spectrogram or pure-waveform models. |
+| [Hybrid Transformers for Music Source Separation](https://arxiv.org/abs/2211.08553) (Rouard, Massa, Défossez, 2022) | HT Demucs: adds a cross-domain transformer to Hybrid Demucs. | The architecture behind `htdemucs_6s`, the 6-stem model StemDeck runs. |
+| [KUIELab-MDX-Net: A Two-Stream Neural Network for Music Demixing](https://arxiv.org/abs/2111.12203) (Kim et al., 2021) | Two-stream demixing network that placed highly in the Music Demixing Challenge. | The MDX-Net family behind the UVR karaoke model StemDeck uses to split lead and backing vocals. |
+| [Beat Tracking by Dynamic Programming](https://doi.org/10.1080/09298210701653344) (Ellis, 2007) | Finds beats by dynamic programming over an onset-strength signal. | The approach behind librosa's beat tracker, which StemDeck uses for BPM. |
+| pyloudnorm: A simple yet flexible loudness meter in Python (Steinmetz & Reiss, AES 150th Convention, 2021) | Open-source implementation of the ITU-R BS.1770 loudness standard, with an evaluation. | How StemDeck measures integrated loudness (LUFS). |
+| The Use of Large Corpora to Train a New Type of Key-Finding Algorithm (Albrecht & Shanahan, *Music Perception*, 2013) | Key-finding profiles trained on a large corpus of music. | The key and scale profiles StemDeck uses for key detection. |
 
 ## Security
 

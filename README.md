@@ -31,8 +31,6 @@
 | [openclaw](https://github.com/openclaw/openclaw) | Personal AI assistant that really does things, on any OS and platform. | A self-hosted agent that acts on your behalf across apps and devices, not just chats. |
 | [openclaw-reference-setup](https://github.com/Atlas-Cowork/openclaw-reference-setup) | Production-grade, security-hardened OpenClaw setup with 15+ custom tools. | A proven blueprint for running OpenClaw safely instead of wiring it up from scratch. |
 | [agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency: specialized agents from frontend to community management. | Drop-in agent personas for many roles, so you can delegate whole workstreams. |
-| [goose](https://github.com/aaif-goose/goose) | Open-source, extensible AI agent that installs, executes, edits, and tests. | A local, model-agnostic agent you can extend with MCP tools. |
-| [aider](https://github.com/Aider-AI/aider) | AI pair programming in your terminal. | Edits your repo with git-aware commits, working with almost any LLM. |
 | [claude-mem](https://github.com/thedotmack/claude-mem) | Persistent context across sessions for every agent. | Captures what your agent did and feeds it back, so later sessions keep the context. |
 | [mempalace](https://github.com/MemPalace/mempalace) | Best-benchmarked open-source AI memory system. | A free, high-accuracy memory layer for agents and assistants. |
 | [supermemory](https://github.com/supermemoryai/supermemory) | Fast, scalable memory and context engine that can run fully locally. | Adds long-term memory to AI apps without sending data to a third party. |

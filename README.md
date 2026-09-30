@@ -14,7 +14,6 @@
 - [Agent Security](#agent-security)
 - [Code Review](#code-review)
 - [Kubernetes](#kubernetes)
-- [Terraform & IaC](#terraform--iac)
 - [Observability & Networking](#observability--networking)
 - [Self-Hosting & Home Lab](#self-hosting--home-lab)
 - [Developer Tools](#developer-tools)
@@ -154,19 +153,6 @@
 | [kvass](https://github.com/tkestack/kvass) | Prometheus horizontal auto-scaling via a sidecar. | Scales Prometheus scraping across many shards for huge clusters. |
 | [cluster-monitoring](https://github.com/carlosedp/cluster-monitoring) | Monitoring stack built on the Prometheus Operator. | A ready Prometheus and Grafana setup, including ARM clusters. |
 
-## Terraform & IaC
-
-| Repo | Description | How this helps |
-|---|---|---|
-| [terraformer](https://github.com/GoogleCloudPlatform/terraformer) | Generates Terraform files from existing infrastructure. | Brings click-ops infrastructure under code fast. |
-| [cf-terraforming](https://github.com/cloudflare/cf-terraforming) | Generates Terraform from existing Cloudflare resources. | Imports your Cloudflare setup into Terraform. |
-| [infracost](https://github.com/infracost/infracost) | Cloud cost intelligence for engineers, AI agents, and CI/CD. | Shows the cost impact of a Terraform change in the PR, before you merge. |
-| [terraform-docs](https://github.com/terraform-docs/terraform-docs) | Generates documentation from Terraform modules. | Keeps module READMEs in sync with inputs and outputs automatically. |
-| [terraform-landscape](https://github.com/coinbase/terraform-landscape) | Makes Terraform plan output easier to read. | Makes large plans reviewable at a glance. |
-| [blast-radius](https://github.com/28mm/blast-radius) | Interactive visualizations of Terraform dependency graphs. | Shows what a change will touch before you apply it. |
-| [pluralith-cli](https://github.com/Pluralith/pluralith-cli) | Terraform state visualization and automated infra docs. | Auto-generates infrastructure diagrams from state. |
-| [diagrams](https://github.com/mingrammer/diagrams) | Diagrams as code for cloud system architectures. | Version-controlled architecture diagrams written in Python. |
-
 ## Observability & Networking
 
 | Repo | Description | How this helps |
@@ -185,6 +171,7 @@
 
 | Repo | Description | How this helps |
 |---|---|---|
+| [diagrams](https://github.com/mingrammer/diagrams) | Diagrams as code for cloud system architectures. | Version-controlled architecture diagrams written in Python. |
 | [atuin](https://github.com/atuinsh/atuin) | Magical shell history. | Searchable, synced shell history across machines. |
 
 ## Learning Resources
@@ -206,7 +193,6 @@
 | [awesome-kubernetes (ramitsurana)](https://github.com/ramitsurana/awesome-kubernetes) | Kubernetes resources. | Broad coverage of Kubernetes tools and learning. |
 | [awesome-kubernetes (run-x)](https://github.com/run-x/awesome-kubernetes) | Kubernetes projects, tools, and resources. | A more tightly curated Kubernetes tool list. |
 | [awesome-helm](https://github.com/cdwv/awesome-helm) | Helm charts and resources. | Find charts and Helm tooling. |
-| [awesome-terraform (Azure)](https://github.com/Azure/awesome-terraform) | Azure Terraform tools and samples. | Terraform-on-Azure references. |
 | [awesome-privacy](https://github.com/lissy93/awesome-privacy) | Privacy- and security-focused software and services. | Privacy-respecting alternatives for everyday tools. |
 | [awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi) | Raspberry Pi tools, projects, and images. | Ideas and software for Pi projects. |
 | [awesome-functional-python](https://github.com/sfermigier/awesome-functional-python) | Functional programming in Python. | Libraries and reading for FP-style Python. |

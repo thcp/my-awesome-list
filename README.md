@@ -15,7 +15,6 @@
 - [Code Review](#code-review)
 - [Kubernetes](#kubernetes)
 - [Terraform & IaC](#terraform--iac)
-- [Docker & CI/CD](#docker--cicd)
 - [Observability & Networking](#observability--networking)
 - [Self-Hosting & Home Lab](#self-hosting--home-lab)
 - [Developer Tools](#developer-tools)
@@ -167,20 +166,6 @@
 | [blast-radius](https://github.com/28mm/blast-radius) | Interactive visualizations of Terraform dependency graphs. | Shows what a change will touch before you apply it. |
 | [pluralith-cli](https://github.com/Pluralith/pluralith-cli) | Terraform state visualization and automated infra docs. | Auto-generates infrastructure diagrams from state. |
 | [diagrams](https://github.com/mingrammer/diagrams) | Diagrams as code for cloud system architectures. | Version-controlled architecture diagrams written in Python. |
-
-## Docker & CI/CD
-
-| Repo | Description | How this helps |
-|---|---|---|
-| [distroless](https://github.com/GoogleContainerTools/distroless) | Language-focused Docker images without an operating system. | Smaller images with a much smaller attack surface. |
-| [official-images](https://github.com/docker-library/official-images) | Source of truth for Docker Official Images. | See exactly how official images are built and tagged. |
-| [docker-library/docs](https://github.com/docker-library/docs) | Documentation for Docker Official Images. | Reference for image variants, tags, and usage. |
-| [gocd](https://github.com/gocd/gocd) | Continuous delivery server. | Models complex deployment pipelines with first-class value-stream visualization. |
-| [jenkins-pipeline-examples](https://github.com/cvitter/jenkins-pipeline-examples) | Example declarative Jenkins pipelines. | Copy-paste starting points for Jenkinsfiles. |
-| [jfrog/project-examples](https://github.com/jfrog/project-examples) | Small projects for configuring CI with Artifactory. | Working examples across build tools for publishing to Artifactory. |
-| [pentaho-containers](https://github.com/hv-support/pentaho-containers) | Templates for running Pentaho in containers. | Ready Docker setups for Pentaho deployments. |
-| [alexa-swarm](https://github.com/mlabouardy/alexa-swarm) | Deploys a Docker Swarm cluster on AWS using Amazon Echo. | A fun voice-driven infrastructure demo. |
-| [docker-inbound-agent](https://github.com/jenkinsci/docker-inbound-agent) | Docker image for a Jenkins inbound agent. ⚠️ Deprecated, merged into docker-agent. | Reference only; use `jenkins/docker-agent` instead. |
 
 ## Observability & Networking
 

@@ -28,7 +28,6 @@
 |---|---|---|
 | [hindsight](https://github.com/vectorize-io/hindsight) | Agent memory that learns. | Gives agents long-term memory that improves over time, so they don't start from zero every session. |
 | [financial-services](https://github.com/anthropics/financial-services) | Anthropic's reference agents, skills, and data connectors for investment banking, equity research, private equity, and wealth management. | Ready-made starting points for finance workflows (comps, DCF, earnings reviews, reconciliations) and a solid reference for structuring agent plugins. |
-| [openclaw](https://github.com/openclaw/openclaw) | Personal AI assistant that really does things, on any OS and platform. | A self-hosted agent that acts on your behalf across apps and devices, not just chats. |
 | [openclaw-reference-setup](https://github.com/Atlas-Cowork/openclaw-reference-setup) | Production-grade, security-hardened OpenClaw setup with 15+ custom tools. | A proven blueprint for running OpenClaw safely instead of wiring it up from scratch. |
 | [agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency: specialized agents from frontend to community management. | Drop-in agent personas for many roles, so you can delegate whole workstreams. |
 | [claude-mem](https://github.com/thedotmack/claude-mem) | Persistent context across sessions for every agent. | Captures what your agent did and feeds it back, so later sessions keep the context. |
@@ -48,7 +47,6 @@
 | [agent-skills (addyosmani)](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding agents. | Raises the baseline quality of what your agent ships: testing, performance, accessibility, and more. |
 | [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | Design intelligence for building professional UI/UX across platforms. | Makes agent-built interfaces look designed rather than generic. |
 | [obsidian-skills](https://github.com/kepano/obsidian-skills) | Agent skills for the Obsidian CLI and its open formats. | Lets your agent read, write, and organize your Obsidian vault correctly. |
-| [skill-issue](https://github.com/paultyng/skill-issue) | Personal Claude Code / Cursor skills, rules, and config. | A real-world example of a tuned agent setup to borrow from. |
 | [agent-skills (actuated)](https://github.com/self-actuated/agent-skills) | Agent skills for actuated. | Teaches agents to work with actuated's CI runners. |
 
 ## AI Models & LLM Tooling
@@ -61,11 +59,8 @@
 | [airllm](https://github.com/lyogavin/airllm) | 70B model inference on a single 4GB GPU. | Makes large models usable on modest hardware. |
 | [lightpanda browser](https://github.com/lightpanda-io/browser) | Headless browser designed for AI and automation. | Much faster, lighter web automation for agents and scrapers than headless Chrome. |
 | [whisper](https://github.com/openai/whisper) | Robust speech recognition. | Accurate, multilingual transcription you can run locally. |
-| [timesfm](https://github.com/google-research/timesfm) | Google's pretrained time-series foundation model. | Solid forecasts without training a model per dataset. |
 | [Fooocus](https://github.com/lllyasviel/Fooocus) | Image generation focused on prompting. | High-quality image generation with minimal tuning. |
 | [FluxRT](https://github.com/tensorforger/FluxRT) | Real-time stream editing pipeline powered by FLUX.2-klein-4B. | Live AI video and stream effects on consumer GPUs. |
-| [C2C](https://github.com/thu-nics/C2C) | Cache-to-Cache: direct semantic communication between LLMs (ICLR'26). | Research on letting models share KV-cache instead of text, making multi-model systems faster. |
-| [porcupine](https://github.com/Picovoice/porcupine) | On-device wake word detection. | Add "hey assistant"-style voice triggers without cloud calls. |
 
 ## Music & Audio AI
 
@@ -78,8 +73,6 @@
 | [NeuralNote](https://github.com/DamRsn/NeuralNote) | Audio plugin for audio-to-MIDI transcription. | Turns a recorded part into editable MIDI right in your DAW. |
 | [mt3](https://github.com/magenta/mt3) | Multi-task multitrack music transcription. | Transcribes full multi-instrument recordings to MIDI. |
 | [all-in-one](https://github.com/mir-aidj/all-in-one) | All-in-one music structure analyzer. | Detects tempo, beats, downbeats, and sections (verse, chorus) automatically. |
-| [openvino-plugins-ai-audacity](https://github.com/intel/openvino-plugins-ai-audacity) | AI effects, generators, and analyzers for Audacity. | Brings stem separation, noise suppression, and transcription into Audacity. |
-| [producer-pal](https://github.com/adamjmurray/producer-pal) | AI music production assistant for Ableton Live. | Control and compose in Ableton by talking to an AI. |
 | [LiveChord](https://github.com/JJ110112/LiveChord) | Turns an audio file into a real-time, playable chord chart. | Practice songs with synced chords, transpose, A-B loop, and slow-down. |
 | [lyrics.ovh](https://github.com/NTag/lyrics.ovh) | Source and API for searching song lyrics. | A simple lyrics API for music apps. |
 
@@ -91,14 +84,6 @@
 | [trailofbits/skills](https://github.com/trailofbits/skills) | Trail of Bits' Claude Code skills for security research, vulnerability detection, and audit workflows. | Brings a top security firm's audit know-how straight into your coding agent. |
 | [semgrep/mcp](https://github.com/semgrep/mcp) | MCP server for scanning code with Semgrep. | Lets any MCP-compatible agent run static analysis and catch vulnerabilities while it writes code. |
 | [infisical](https://github.com/Infisical/infisical) | Open-source platform for secrets, certificates, and privileged access management. | Takes secrets out of `.env` files and repos, with rotation and access control. |
-| [checkov](https://github.com/bridgecrewio/checkov) | Finds cloud misconfigurations and vulnerabilities in IaC at build time. | Catches insecure Terraform, Kubernetes, and CloudFormation before it deploys. |
-| [detect-secrets](https://github.com/Yelp/detect-secrets) | Enterprise-friendly secret detection and prevention in code. | Stops credentials from being committed, via a pre-commit hook and a baseline. |
-| [docker-bench-security](https://github.com/docker/docker-bench-security) | Checks dozens of Docker production best practices. | A quick CIS-style audit of your Docker hosts. |
-| [Azure-Sentinel](https://github.com/Azure/Azure-Sentinel) | Microsoft Sentinel detections, hunting queries, and playbooks. | A large library of ready-made detections for SIEM and SOC work. |
-| [Azure-Network-Security](https://github.com/Azure/Azure-Network-Security) | Resources for Azure network security. | Templates and guidance for Azure Firewall, WAF, and DDoS protection. |
-| [portmaster](https://github.com/safing/portmaster) | Privacy app and firewall that blocks mass surveillance. | See and control every connection your computer makes. |
-| [bad-practices](https://github.com/cisagov/bad-practices) | CISA's catalog of exceptionally risky practices. | An authoritative "don't do this" checklist for security reviews. |
-| [painless-password-rotation](https://github.com/scarolan/painless-password-rotation) | Easy, secure password rotation for Linux and Windows system accounts. | Automates rotating local admin passwords with Vault. |
 
 ## Compliance & GRC
 
@@ -135,7 +120,6 @@
 
 | Repo | Description | How this helps |
 |---|---|---|
-| [caddy](https://github.com/caddyserver/caddy) | Fast, extensible web server with automatic HTTPS. | TLS out of the box with a tiny config; a great reverse proxy. |
 | [Logstalgia](https://github.com/acaudwell/Logstalgia) | Replays or streams web access logs as a retro arcade game. | A fun, surprisingly useful way to see traffic patterns. |
 
 ## Self-Hosting & Home Lab
@@ -149,14 +133,12 @@
 
 | Repo | Description | How this helps |
 |---|---|---|
-| [diagrams](https://github.com/mingrammer/diagrams) | Diagrams as code for cloud system architectures. | Version-controlled architecture diagrams written in Python. |
 | [atuin](https://github.com/atuinsh/atuin) | Magical shell history. | Searchable, synced shell history across machines. |
 
 ## Learning Resources
 
 | Repo | Description | How this helps |
 |---|---|---|
-| [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | Hands-on course covering ML, deep learning, LLMs, agents, and more. | A structured, build-it-yourself path to understanding AI engineering end to end, from fundamentals to shipping. |
 | [hacker-laws](https://github.com/dwmkerr/hacker-laws) | Laws, theories, principles, and patterns for developers. | Shared vocabulary for engineering trade-offs (Conway, Hyrum, Brooks, and more). |
 | [The-HustleGPT-Challenge](https://github.com/jtmuller5/The-HustleGPT-Challenge) | Building startups with an AI co-founder. | Real examples of founders using AI to build businesses. |
 
@@ -164,12 +146,8 @@
 
 | Repo | Description | How this helps |
 |---|---|---|
-| [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | Free software you can host yourself. | The go-to catalog for replacing SaaS with self-hosted apps. |
 | [awesome-mac](https://github.com/jaywcjlove/awesome-mac) | High-quality macOS software. | Find the best Mac app for any job. |
-| [awesome-docker](https://github.com/veggiemonk/awesome-docker) | Docker resources and projects. | Tools and guides across the Docker ecosystem. |
 | [awesome-privacy](https://github.com/lissy93/awesome-privacy) | Privacy- and security-focused software and services. | Privacy-respecting alternatives for everyday tools. |
-| [awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi) | Raspberry Pi tools, projects, and images. | Ideas and software for Pi projects. |
-| [awesome-functional-python](https://github.com/sfermigier/awesome-functional-python) | Functional programming in Python. | Libraries and reading for FP-style Python. |
 | [awesome-musicdsp](https://github.com/olilarkin/awesome-musicdsp) | Music DSP and audio programming resources. | Learning path for building audio plugins and DSP. |
 | [awesome-music-production](https://github.com/ad-si/awesome-music-production) | Software and services to create and distribute music. | Tools for every stage of music production. |
 

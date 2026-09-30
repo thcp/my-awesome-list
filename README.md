@@ -157,7 +157,6 @@
 | [scope](https://github.com/weaveworks/scope) | Monitoring, visualization, and management for Docker and Kubernetes. | Live map of containers and how they talk to each other. |
 | [kube-plex](https://github.com/munnerz/kube-plex) | Scalable Plex Media Server on Kubernetes. | Distributes Plex transcode jobs as pods across your cluster. |
 | [k8s (Platform in a Box)](https://github.com/Thakurvaibhav/k8s) | Platform in a box. | A reference bundle of cluster add-ons to bootstrap a platform. |
-| [charts (prodriguezdefino)](https://github.com/prodriguezdefino/charts) | Curated applications for Kubernetes. | Helm charts to reuse or learn from. |
 | [octant](https://github.com/vmware-archive/octant) | Extensible platform to understand Kubernetes complexity. ⚠️ Archived. | A visual cluster explorer; kept for reference. |
 | [kubefed](https://github.com/kubernetes-retired/kubefed) | Kubernetes cluster federation. ⚠️ Retired. | Historical reference for multi-cluster federation patterns. |
 

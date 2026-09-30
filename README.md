@@ -187,14 +187,6 @@
 | Repo | Description | How this helps |
 |---|---|---|
 | [caddy](https://github.com/caddyserver/caddy) | Fast, extensible web server with automatic HTTPS. | TLS out of the box with a tiny config; a great reverse proxy. |
-| [vector](https://github.com/vectordotdev/vector) | High-performance observability data pipeline. | Collects, transforms, and routes logs and metrics anywhere, cheaply. |
-| [elasticsearch_exporter](https://github.com/prometheus-community/elasticsearch_exporter) | Elasticsearch stats exporter for Prometheus. | Monitors Elasticsearch health in your Prometheus stack. |
-| [elasticsearch-stress-test](https://github.com/logzio/elasticsearch-stress-test) | Stress test tool for Elasticsearch. | Validates cluster capacity before production load hits. |
-| [roxy-wi](https://github.com/roxy-wi/roxy-wi) | Web interface for HAProxy, Nginx, Apache, and Keepalived. | Manages load balancers and web servers from one UI. |
-| [go-feedback-agent](https://github.com/loadbalancerorg/go-feedback-agent) | Sets real server weight from available resources. | Load-aware HAProxy balancing on Linux. |
-| [windows_feedback_agent](https://github.com/loadbalancerorg/windows_feedback_agent) | Windows feedback agent for HAProxy server weight. | Load-aware HAProxy balancing for Windows backends. |
-| [dpbench](https://github.com/dpbench/dpbench) | Dataplane benchmarking suite. | Fair, reproducible benchmarks for proxies and load balancers. |
-| [chaosmonkey](https://github.com/Netflix/chaosmonkey) | Netflix's resiliency tool that randomly terminates instances. | Forces your systems to tolerate instance failure. |
 | [Logstalgia](https://github.com/acaudwell/Logstalgia) | Replays or streams web access logs as a retro arcade game. | A fun, surprisingly useful way to see traffic patterns. |
 
 ## Self-Hosting & Home Lab

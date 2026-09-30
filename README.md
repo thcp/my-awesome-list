@@ -154,6 +154,7 @@
 | [havener](https://github.com/homeport/havener) | Swiss army knife for Kubernetes tasks. | Handy shortcuts for common cluster operations and debugging. |
 | [kvass](https://github.com/tkestack/kvass) | Prometheus horizontal auto-scaling via a sidecar. | Scales Prometheus scraping across many shards for huge clusters. |
 | [cluster-monitoring](https://github.com/carlosedp/cluster-monitoring) | Monitoring stack built on the Prometheus Operator. | A ready Prometheus and Grafana setup, including ARM clusters. |
+| [scope](https://github.com/weaveworks/scope) | Monitoring, visualization, and management for Docker and Kubernetes. | Live map of containers and how they talk to each other. |
 | [kube-plex](https://github.com/munnerz/kube-plex) | Scalable Plex Media Server on Kubernetes. | Distributes Plex transcode jobs as pods across your cluster. |
 | [k8s (Platform in a Box)](https://github.com/Thakurvaibhav/k8s) | Platform in a box. | A reference bundle of cluster add-ons to bootstrap a platform. |
 | [charts (prodriguezdefino)](https://github.com/prodriguezdefino/charts) | Curated applications for Kubernetes. | Helm charts to reuse or learn from. |

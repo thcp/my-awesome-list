@@ -9,6 +9,7 @@
 - [AI Models & LLM Tooling](#ai-models--llm-tooling)
 - [Music & Audio AI](#music--audio-ai)
 - [Research Papers](#research-papers)
+- [AI Ethics & Security Papers](#ai-ethics--security-papers)
 - [Security](#security)
 - [Compliance & GRC](#compliance--grc)
 - [AI Pentesting](#ai-pentesting)
@@ -88,6 +89,21 @@
 | [Beat Tracking by Dynamic Programming](https://doi.org/10.1080/09298210701653344) (Ellis, 2007) | Finds beats by dynamic programming over an onset-strength signal. | The approach behind librosa's beat tracker, used for BPM detection. |
 | [pyloudnorm: A simple yet flexible loudness meter in Python](https://csteinmetz1.github.io/pyloudnorm-eval/paper/pyloudnorm_preprint.pdf) (Steinmetz & Reiss, AES 150th Convention, 2021) | Open-source implementation of the ITU-R BS.1770 loudness standard, with an evaluation. | A reference for measuring integrated loudness (LUFS). |
 | [The Use of Large Corpora to Train a New Type of Key-Finding Algorithm](https://doi.org/10.1525/mp.2013.31.1.59) (Albrecht & Shanahan, *Music Perception*, 2013) | Key-finding profiles trained on a large corpus of music. | The key and scale profiles used for key detection. |
+
+## AI Ethics & Security Papers
+
+| Paper | Description | How this helps |
+|---|---|---|
+| [Asleep at the Keyboard? Assessing the Security of GitHub Copilot's Code Contributions](https://arxiv.org/abs/2108.09293) (Pearce et al., 2021) | Tests Copilot on security-relevant scenarios and finds roughly 40% of suggestions vulnerable. | The foundational reason to review AI-generated code before trusting it. |
+| [Security Weaknesses of Copilot-Generated Code in GitHub Projects](https://arxiv.org/abs/2310.02059) (Fu et al., 2023) | Empirical study of security weaknesses in Copilot code found in real GitHub projects. | Shows the risk holds up in real-world code, not just lab prompts. |
+| [Purple Llama CyberSecEval: A Secure Coding Benchmark for Language Models](https://arxiv.org/abs/2312.04724) (Bhatt et al., 2023) | Benchmark for how insecure a model's generated code is and how it responds to cyberattack requests. | A way to measure and compare models on secure coding. |
+| [We Have a Package for You! Package Hallucinations by Code Generating LLMs](https://arxiv.org/abs/2406.10279) (Spracklen et al., 2024) | Analyzes how often code models invent package names that don't exist. | Warns of a supply-chain attack: verify every dependency an AI suggests. |
+| [Do Users Write More Insecure Code with AI Assistants?](https://arxiv.org/abs/2211.03622) (Perry et al., 2022) | User study in which developers with AI help wrote less secure code while feeling more confident. | Shows why overconfidence in AI output is a security risk. |
+| [Lost at C: A User Study on the Security Implications of LLM Code Assistants](https://arxiv.org/abs/2208.09727) (Sandoval et al., 2022) | User study of security in AI-assisted C programming. | A more measured counterpoint on how much AI assistance changes security. |
+| [Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection](https://arxiv.org/abs/2302.12173) (Greshake et al., 2023) | Shows how hidden instructions in web pages or files can hijack LLM-integrated apps. | Essential background for anyone using agents, skills, or MCP servers. |
+| [Extracting Training Data from Large Language Models](https://arxiv.org/abs/2012.07805) (Carlini et al., 2020) | Shows models can leak memorized training data, including private information. | A reminder not to paste secrets into prompts and to treat model output as possibly leaking data. |
+| [Ethical and social risks of harm from Language Models](https://arxiv.org/abs/2112.04359) (Weidinger et al., 2021) | Taxonomy of ethical and social risks from language models. | A framework for thinking through responsible AI use. |
+| [Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073) (Bai et al., 2022) | Trains models to follow a written set of principles using AI feedback. | Explains how Claude's values are shaped by written principles. |
 
 ## Security
 

@@ -177,7 +177,6 @@
 
 | Repo | Description | How this helps |
 |---|---|---|
-| [PathOfBuilding-PoE2](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2) | Offline build planner for Path of Exile 2. | Calculates DPS and defenses to theory-craft builds before investing in them. |
 | [arctic_shift_ui](https://github.com/ArthurHeitmann/arctic_shift_ui) | Web UI for searching and downloading archived Reddit data. | Search old Reddit content beyond what Reddit's own search shows. |
 | [reddit-gems](https://github.com/hoveychen/reddit-gems) | Full archive and media browser for r/coolgithubprojects (2014–2026). | A goldmine for discovering interesting projects. |
 | [ByteOrder](https://github.com/Matts-Baps/ByteOrder) | Home kitchen ordering system. | A fun self-hosted "restaurant menu" for your household. |

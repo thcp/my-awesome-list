@@ -13,7 +13,6 @@
 - [AI Pentesting](#ai-pentesting)
 - [Agent Security](#agent-security)
 - [Code Review](#code-review)
-- [Kubernetes](#kubernetes)
 - [Observability & Networking](#observability--networking)
 - [Self-Hosting & Home Lab](#self-hosting--home-lab)
 - [Developer Tools](#developer-tools)
@@ -96,10 +95,7 @@
 | [infisical](https://github.com/Infisical/infisical) | Open-source platform for secrets, certificates, and privileged access management. | Takes secrets out of `.env` files and repos, with rotation and access control. |
 | [checkov](https://github.com/bridgecrewio/checkov) | Finds cloud misconfigurations and vulnerabilities in IaC at build time. | Catches insecure Terraform, Kubernetes, and CloudFormation before it deploys. |
 | [detect-secrets](https://github.com/Yelp/detect-secrets) | Enterprise-friendly secret detection and prevention in code. | Stops credentials from being committed, via a pre-commit hook and a baseline. |
-| [sealed-secrets](https://github.com/bitnami/sealed-secrets) | Kubernetes controller for one-way encrypted Secrets. | Lets you safely store Kubernetes secrets in Git for GitOps. |
 | [docker-bench-security](https://github.com/docker/docker-bench-security) | Checks dozens of Docker production best practices. | A quick CIS-style audit of your Docker hosts. |
-| [kubesec](https://github.com/controlplaneio/kubesec) | Security risk analysis for Kubernetes resources. | Scores manifests for risky settings before you apply them. |
-| [red-kube](https://github.com/lightspin-tech/red-kube) | Kubernetes red-team adversary emulation based on kubectl. | Tests your cluster defenses the way an attacker would. |
 | [Azure-Sentinel](https://github.com/Azure/Azure-Sentinel) | Microsoft Sentinel detections, hunting queries, and playbooks. | A large library of ready-made detections for SIEM and SOC work. |
 | [Azure-Network-Security](https://github.com/Azure/Azure-Network-Security) | Resources for Azure network security. | Templates and guidance for Azure Firewall, WAF, and DDoS protection. |
 | [portmaster](https://github.com/safing/portmaster) | Privacy app and firewall that blocks mass surveillance. | See and control every connection your computer makes. |
@@ -137,22 +133,6 @@
 |---|---|---|
 | [open-code-review](https://github.com/alibaba/open-code-review) | Hybrid code review tool (deterministic pipelines + LLM agent) with line-level comments and a built-in multi-language ruleset. | Automates PR review with precise, line-level feedback on real bug classes (NPE, thread-safety, XSS, SQL injection); works with OpenAI and Anthropic models. |
 
-## Kubernetes
-
-| Repo | Description | How this helps |
-|---|---|---|
-| [crossplane](https://github.com/crossplane/crossplane) | The cloud-native control plane. | Manage cloud infrastructure as Kubernetes resources and build your own platform APIs. |
-| [cloudnative-pg](https://github.com/cloudnative-pg/cloudnative-pg) | The most popular Kubernetes operator for PostgreSQL. | Production Postgres on Kubernetes with HA, backups, and failover handled for you. |
-| [k3d](https://github.com/k3d-io/k3d) | Runs k3s clusters in Docker. | Spin up disposable multi-node clusters locally in seconds. |
-| [popeye](https://github.com/derailed/popeye) | Kubernetes cluster resource sanitizer. | Flags misconfigurations and unused resources in a live cluster. |
-| [polaris](https://github.com/FairwindsOps/polaris) | Validates best practices in Kubernetes clusters. | Enforces reliability, efficiency, and security checks, including as an admission controller. |
-| [goldilocks](https://github.com/FairwindsOps/goldilocks) | Gets your resource requests "just right". | Recommends CPU and memory requests from real usage, which cuts waste and OOMs. |
-| [chaoskube](https://github.com/linki/chaoskube) | Periodically kills random pods. | Proves your workloads survive pod failure. |
-| [kubevious](https://github.com/kubevious/kubevious) | Kubernetes without disasters. | Visualizes the app-centric cluster state and catches config errors. |
-| [havener](https://github.com/homeport/havener) | Swiss army knife for Kubernetes tasks. | Handy shortcuts for common cluster operations and debugging. |
-| [kvass](https://github.com/tkestack/kvass) | Prometheus horizontal auto-scaling via a sidecar. | Scales Prometheus scraping across many shards for huge clusters. |
-| [cluster-monitoring](https://github.com/carlosedp/cluster-monitoring) | Monitoring stack built on the Prometheus Operator. | A ready Prometheus and Grafana setup, including ARM clusters. |
-
 ## Observability & Networking
 
 | Repo | Description | How this helps |
@@ -180,7 +160,6 @@
 |---|---|---|
 | [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | Hands-on course covering ML, deep learning, LLMs, agents, and more. | A structured, build-it-yourself path to understanding AI engineering end to end, from fundamentals to shipping. |
 | [hacker-laws](https://github.com/dwmkerr/hacker-laws) | Laws, theories, principles, and patterns for developers. | Shared vocabulary for engineering trade-offs (Conway, Hyrum, Brooks, and more). |
-| [kubernetes-failure-stories](https://github.com/hjacobs/kubernetes-failure-stories) | Public Kubernetes failure and horror stories. | Learn from others' incidents before you repeat them. |
 | [The-HustleGPT-Challenge](https://github.com/jtmuller5/The-HustleGPT-Challenge) | Building startups with an AI co-founder. | Real examples of founders using AI to build businesses. |
 
 ## Other Awesome Lists
@@ -190,9 +169,6 @@
 | [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | Free software you can host yourself. | The go-to catalog for replacing SaaS with self-hosted apps. |
 | [awesome-mac](https://github.com/jaywcjlove/awesome-mac) | High-quality macOS software. | Find the best Mac app for any job. |
 | [awesome-docker](https://github.com/veggiemonk/awesome-docker) | Docker resources and projects. | Tools and guides across the Docker ecosystem. |
-| [awesome-kubernetes (ramitsurana)](https://github.com/ramitsurana/awesome-kubernetes) | Kubernetes resources. | Broad coverage of Kubernetes tools and learning. |
-| [awesome-kubernetes (run-x)](https://github.com/run-x/awesome-kubernetes) | Kubernetes projects, tools, and resources. | A more tightly curated Kubernetes tool list. |
-| [awesome-helm](https://github.com/cdwv/awesome-helm) | Helm charts and resources. | Find charts and Helm tooling. |
 | [awesome-privacy](https://github.com/lissy93/awesome-privacy) | Privacy- and security-focused software and services. | Privacy-respecting alternatives for everyday tools. |
 | [awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi) | Raspberry Pi tools, projects, and images. | Ideas and software for Pi projects. |
 | [awesome-functional-python](https://github.com/sfermigier/awesome-functional-python) | Functional programming in Python. | Libraries and reading for FP-style Python. |
